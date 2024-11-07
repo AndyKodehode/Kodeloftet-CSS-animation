@@ -57,8 +57,11 @@ main{
 .slideInLeftCard{
     background-color: var(--cardFromLeft);
     color: whitesmoke;
-    animation: slideInLeft 1s ease-in;
-}
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    }
 
 .slideInRightCard{
     background-color:var(--cardFromRight);
@@ -87,7 +90,8 @@ main{
     border-color: lightgrey;
     border-style: solid;
     box-shadow: 2px 2px 5px lightgrey;
-    transition: 300ms ease-in;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
 
 }
 
