@@ -57,10 +57,12 @@ main{
 .slideInLeftCard{
     background-color: var(--cardFromLeft);
     color: whitesmoke;
+    transform: translateX(-500px);
     animation-name: slideInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     }
 
 .slideInRightCard{
@@ -90,7 +92,7 @@ main{
     border-color: lightgrey;
     border-style: solid;
     box-shadow: 2px 2px 5px lightgrey;
-    transition-duration: 300ms;
+    transition-duration: 700ms;
     transition-timing-function: ease-in;
 
 }
@@ -106,7 +108,7 @@ main{
 
 .btnOpacity{
     opacity: 0.3;
-    transition: opacity 300ms ease-in-out;
+    
 }
 
 .btnOpacity:hover{
